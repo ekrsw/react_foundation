@@ -19,3 +19,6 @@ Next.jsは柔軟な**Reactフレームワーク**で、高速でフルスタッ�
 **React**は、**インタラクティブなユーザー・インターフェース**を構築するためのJavaScriptの**ライブラリ**です。
 
 ユーザー・インターフェース（UI）とは、ユーザーが画面上で見たり操作したりする要素を意味する。
+<p aling="center">
+    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/learn-react-components.jpg" alt="ユーザー・インターフェース(UI)" title="UI">
+</p>
