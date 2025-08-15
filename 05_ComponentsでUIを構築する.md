@@ -13,7 +13,7 @@ Reactアプリケーションを作り始めるには、Reactの3つのコア・
 
 コンポーネントによって、自己完結的で再利用可能なコードの断片を構築することができます。コンポーネントを **LEGOブロック**と考えると、これらの個々のレンガを組み合わせて、より大きな構造を形成することができます。UIの一部を更新する必要がある場合は、特定のコンポーネントまたはレンガを更新できます。
 <p aling="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/05_1_learn-components.jpg"/>
+    <img src="asset/05_1_learn-components.jpg"/>
 </p>
 このモジュール性により、アプリケーションの残りの部分に触れることなくコンポーネントを追加、更新、削除することができるため、コードが大きくなっても保守しやすくなる。
 
@@ -116,7 +116,7 @@ root.render(<Header />);
 ### コンポーネント・ツリー
 このようにReactコンポーネントをネストし続けることで、コンポーネント・ツリーを形成することができる。
 <p aling="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/05_2_learn-component-tree.jpg"/>
+    <img src="asset/05_2_learn-component-tree.jpg"/>
 </p>
 例えば、トップレベルの`HomePage`コンポーネントは、`Header`、`Article`、`Footer`コンポーネントを保持することができます。そして、これらのコンポーネントはそれぞれ子コンポーネントを持つことができます。例えば、`Header`コンポーネントは、`Logo`、`Title`、`Nav`コンポーネントを含むことができます。
 

@@ -20,5 +20,5 @@ function HomePage() {
 
 同じように、情報の断片をプロパティとしてReactコンポーネントに渡すことができる。これを小道具と呼ぶ。例えば、ボタンのバリエーションを考えてみましょう：
 <p aling="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/06_1_learn-props.jpg"/>
+    <img src="asset/06_1_learn-props.jpg"/>
 </p>
