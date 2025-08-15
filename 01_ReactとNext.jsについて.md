@@ -35,3 +35,8 @@ Next.jsはReactの**フレームワーク**で、ウェブアプリケーショ�
 <p aling="center">
     <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/01_2_learn-ecosystem.jpg"/>
 </p>
+Reactを使ってUIを構築し、Next.jsの機能を段階的に採用することで、ルーティング、データフェッチ、キャッシュといった一般的なアプリケーション要件を解決し、開発者とエンドユーザーのエクスペリエンスを向上させることができます。
+
+個人の開発者であろうと、大規模なチームの一員であろうと、ReactとNext.jsを使用して、完全にインタラクティブで、高度にダイナミックで、パフォーマンスの高いWebアプリケーションを構築できます。
+
+次の章では、ReactとNext.jsを使い始める方法について説明します。
