@@ -68,7 +68,7 @@ HTMLファイル内にJavaScriptを記述するには、`script`タグを追加�
 ## HTMLとDOMの比較
 ブラウザ開発者ツール内のDOM要素を見てみると、DOMに`<h1>`要素が含まれていることに気づくでしょう。ページのDOMはソースコード、言い換えれば、あなたが作成したオリジナルのHTMLファイルとは異なります。
 <p aling="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/03_1_learn-dom-and-source.jpg"/>
+    <img src="asset/03_1_learn-dom-and-source.jpg"/>
 </p>
 これは、HTMLが最初のページ内容を表しているのに対し、DOMが更新されたページ内容を表しており、あなたが書いたJavaScriptコードによって変更されているからです。
 

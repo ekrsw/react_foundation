@@ -20,7 +20,7 @@ Next.jsは柔軟な**Reactフレームワーク**で、高速でフルスタッ�
 
 ユーザー・インターフェース（UI）とは、ユーザーが画面上で見たり操作したりする要素を意味する。
 <p align="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/01_1_learn-react-components.jpg" alt="ユーザー・インターフェース(UI)" title="UI">
+    <img src="asset/01_1_learn-react-components.jpg" alt="ユーザー・インターフェース(UI)" title="UI">
 </p>
 ライブラリとは、ReactがUIを構築するのに役立つ関数（API）を提供するが、アプリケーションのどこでそれらの関数を使うかは開発者に任されていることを意味する。
 
@@ -32,7 +32,7 @@ Next.jsはReactの**フレームワーク**で、ウェブアプリケーショ�
 
 フレームワークとは、Next.jsがReactに必要なツールと設定を処理し、アプリケーションに追加の構造、機能、最適化を提供することを意味します。
 <p aling="center">
-    <img src="https://github.com/ekrsw/react_foundation/blob/main/asset/01_2_learn-ecosystem.jpg"/>
+    <img src="asset/01_2_learn-ecosystem.jpg"/>
 </p>
 Reactを使ってUIを構築し、Next.jsの機能を段階的に採用することで、ルーティング、データフェッチ、キャッシュといった一般的なアプリケーション要件を解決し、開発者とエンドユーザーのエクスペリエンスを向上させることができます。
 
