@@ -90,7 +90,7 @@ JSXはJavaScriptの構文拡張で、使い慣れたHTMLライクな構文でUI�
 Reactを使うことで、いかに繰り返しの多いコードを削減できるかがわかるだろう。
 
 Reactは、あなたの代わりにタスク（この場合はUIの更新）を実行するコードの再利用可能なスニペットを含むライブラリだ。
-## ReactのためのエッセンシャルJavaScript
+### ReactのためのエッセンシャルJavaScript
 JavaScriptとReactを同時に学ぶことは可能だが、JavaScriptに精通していれば、Reactを学ぶプロセスを容易にすることができる。
 
 次のセクションでは、JavaScriptの観点からReactの中核となる概念をいくつか紹介します。ここでは、JavaScriptのトピックについて説明します：
