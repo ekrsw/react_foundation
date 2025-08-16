@@ -22,3 +22,8 @@ function HomePage() {
 <p aling="center">
     <img src="asset/06_1_learn-props.jpg"/>
 </p>
+JavaScriptの関数と同様に、コンポーネントの動作や画面にレンダリングされたときに表示される内容を変更するカスタム引数（またはprops）を受け付けるコンポーネントを設計できます。そして、これらのpropsを親コンポーネントから子コンポーネントに渡すことができます。
+
+:::note info
+test test test 
+:::
