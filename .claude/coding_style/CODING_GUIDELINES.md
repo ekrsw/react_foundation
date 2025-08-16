@@ -87,6 +87,24 @@
 >> ネストされた引用
 ```
 
+#### GitHub Flavored Markdown のアラート記法
+```markdown
+> [!NOTE]
+> Note
+
+> [!TIP]
+> Tips
+
+> [!IMPORTANT]
+> 重要
+
+> [!WARNING]
+> 警告
+
+> [!CAUTION]
+> より強い警告
+```
+
 ### 9. 水平線（Horizontal Rules）
 ```markdown
 ---
