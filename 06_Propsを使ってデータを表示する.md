@@ -78,5 +78,117 @@ function Header({ title }) {
 中括弧は、「JSXランド」にいる間に「JavaScriptランド」に入る方法だと考えることができます。中括弧の中には、任意の**JavaScript式**（単一の値として評価されるもの）を追加できます。例えば
 
 1. ドット記法の**オブジェクト・プロパティ**：
+```example.js
+function Header(props) {
+  return <h1>{props.title}</h1>;
+}
+```
 2. **テンプレート・リテラル**:
+```example.js
+function Header({ title }) {
+  return <h1>{`Cool ${title}`}</h1>;
+}
+```
 3. 関数の戻り値:
+```example.js
+function createTitle(title) {
+  if (title) {
+    return title;
+  } else {
+    return 'Default title';
+  }
+}
+ 
+function Header({ title }) {
+  return <h1>{createTitle(title)}</h1>;
+}
+```
+4. あるいは**三項演算子**:
+```example.js
+function Header({ title }) {
+  return <h1>{title ? title : 'Default Title'}</h1>;
+}
+```
+三項演算子を使用した場合、コンポーネントのデフォルトのケースを考慮したため、タイトルプロパに文字列を渡す必要はありません：
+```example.js
+function Header({ title }) {
+  return <h1>{title ? title : 'Default title'}</h1>;
+}
+ 
+function HomePage() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
+```
+コンポーネントは、アプリケーションのさまざまな部分で再利用できる一般的なタイトルのプロパティを受け入れるようになりました。必要なのはタイトルの文字列を変更することだけです：
+```index.html
+function HomePage() {
+  return (
+    <div>
+      <Header title="React" />
+      <Header title="A new title" />
+    </div>
+  );
+}
+```
+## リストを繰り返し処理する
+リストとして表示する必要のあるデータがあることはよくあることです。配列メソッドを使用してデータを操作し、同じスタイルで異なる情報を保持するUI要素を生成することができます。
+
+以下の名前の配列を`HomePage`コンポーネントに追加します：
+```index.html
+function HomePage() {
+  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+ 
+  return (
+    <div>
+      <Header title="Develop. Preview. Ship." />
+      <ul>
+        {names.map((name) => (
+          <li>{name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+そして、`array.map()`メソッドを使って配列を繰り返し処理し、**arrow関数**を使って名前をリスト項目にマッピングします：
+```index.html
+function HomePage() {
+  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+ 
+  return (
+    <div>
+      <Header title="Develop. Preview. Ship." />
+      <ul>
+        {names.map((name) => (
+          <li>{name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+中括弧を使って「JavaScript」と「JSX」の土地を出たり入ったりしていることに注目してほしい。
+
+このコードを実行すると、Reactは`key`プロップが見つからないという警告を出します。これは、ReactがDOM内のどの要素を更新すべきかを知るために、配列内のアイテムを一意に識別する何かが必要だからです。
+
+現在のところ一意であるため、この名前を使用することもできますが、アイテムIDのように一意であることが保証されたものを使用することをお勧めします。
+```index.html
+function HomePage() {
+  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+ 
+  return (
+    <div>
+      <Header title="Develop. Preview. Ship." />
+      <ul>
+        {names.map((name) => (
+          <li key={name}>{name}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
